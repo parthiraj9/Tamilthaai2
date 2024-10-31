@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>தமிழ் தாய் - Tamil Learning for Kids</title>
+    
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./style.css">
+  
+  <!-- Google Fonts (Optional) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+     <script>
+        document.addEventListener("contextmenu", function(event) {
+            event.preventDefault();
+        });
+    </script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <!-- Navbar Header -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNavbar" aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="https://i.ibb.co/zZ7BwHw/tamilscript.jpg" alt="Tamil Learning" height="30"></a>
+            </div>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="nav navbar-nav navbar-right">
+				<li><a href="https://tamilthaai.org/">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Our Mission</a></li>
+                            <li><a href="#">Our Team</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">EduTainment <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+							<li><a href="https://tamilthaai.org/games/kg.html">Games (KG)</a></li>
+							<li><a href="https://tamilthaai.org/games/grade1.html">Games (Grade-1)</a></li>
+                            <li><a href="#">Quizzes</a></li>
+                            <li><a href="#">Activities</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">History <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Tamil Language</a></li>
+                            <li><a href="#">Tamil Culture</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Help <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Support</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Welcome Section -->
+ <!-- Content Section -->
+    <div class="container">
+        <h1>Interactive Tamil Games</h1>
+        <p>Explore fun and engaging games to help you learn Tamil!</p>
+    	<p><a href="#Game1">Go to Game 1 - Relationships</a></p>
+        <p><a href="#Game2">Go to Game 2 - Tamil Quiz</a></p>
+
+        <!-- Section for Game 1 -->
+        <h2 id="Game1">Game 1 - Relationships  </h2>
+        <div class="iframe-container">
+            <iframe style="max-width:100%" 
+                src="https://wordwall.net/embed/88bcaa90d95f48deba05cdc951e4af9f?themeId=1&templateId=38&fontStackId=0"
+                width="1000" 
+                height="760" 
+                frameborder="0" 
+                allowfullscreen>
+            </iframe>		
+        </div>
+        <!-- Section for Game 2 -->
+        <h2 id="Game2">Game 2 - Tamil Quiz </h2>
+        <div class="iframe-container">
+          <iframe style="max-width:100%" 
+                  src="https://wordwall.net/embed/12fa9bbfff37439d96bae244f7535964?themeId=21&templateId=69&fontStackId=0"
+                  width="1000" 
+                  height="760" 
+                  frameborder="0" 
+                  allowfullscreen>
+          </iframe>
+         </div>
+
+      
+    </div>
+	
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <p>© 2024 Tamil Learning | All rights reserved.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <ul class="social-icons list-inline">
+                <li><a href="#"><i class="fab fa-facebook fa-2x"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter fa-2x"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube fa-2x"></i></a></li>
+            </ul>
+            <p>&copy; <span id="currentYear">2024</span> Tamil Learning | All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script>
+        // Set Current Year in Footer
+        $(document).ready(function () {
+            var currentYear = new Date().getFullYear();
+            $('#currentYear').text(currentYear);
+        });
+    </script>
+</body>
+</html>
