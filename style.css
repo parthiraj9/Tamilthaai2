@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    padding-top: 70px; /* To prevent content from being hidden under the fixed navbar */
+}
+
+/* Navbar Styles */
+.navbar-inverse {
+    background-color: #005f99;
+    border-color: #005f99;
+}
+
+.navbar-inverse .navbar-brand img {
+    height: 30px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    background-color: #004a80;
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav .dropdown-menu {
+    background-color: #005f99;
+}
+
+.navbar-inverse .navbar-nav .dropdown-menu > li > a {
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav .dropdown-menu > li > a:hover,
+.navbar-inverse .navbar-nav .dropdown-menu > li > a:focus {
+    background-color: #004a80;
+    color: #ffffff;
+}
+
+/* Welcome Section Styles */
+.welcome-section {
+    background-image: url('https://i.ibb.co/SXbqxqP/thiruvalluvar.jpg');
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: right center;
+    padding: 60px 0;
+    color: #333333;
+}
+
+.welcome-section h1 {
+    font-size: 48px;
+    color: #005f99;
+    margin-bottom: 20px;
+}
+
+.welcome-section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.welcome-section .btn-primary {
+    background-color: #005f99;
+    border-color: #005f99;
+}
+
+.welcome-section .btn-primary:hover {
+    background-color: #004a80;
+    border-color: #004a80;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #005f99;
+    color: #ffffff;
+    padding: 30px 0;
+}
+
+.footer a {
+    color: #f1c40f;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #f39c12;
+    text-decoration: underline;
+}
+
+.footer .social-icons li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer .social-icons a {
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+.footer .social-icons a:hover {
+    color: #f1c40f;
+}
